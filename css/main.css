@@ -738,8 +738,6 @@ body {
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
-  margin-left: auto;
-  margin-right: auto;
 }
 @media (max-width: 540px) {
   .sect_plan__wrap-title {
@@ -754,9 +752,6 @@ body {
   color: #181B21;
   font-size: 14px;
   line-height: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 @media (max-width: 540px) {
   .sect_plan__wrap-desc {
@@ -770,8 +765,8 @@ body {
   display: flex;
   padding: 24px 0;
   max-width: 950px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0 !important;
+  margin-right: auto !important;
   margin-top: 24px;
   margin-bottom: 32px;
 }
